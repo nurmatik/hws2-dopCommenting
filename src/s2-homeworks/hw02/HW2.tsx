@@ -57,11 +57,11 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => { // need to fix any
         // need to fix
         // это просто функция стрелочник-она засетает, то что сделает deleteAffair
-        setAffairs(deleteAffair(affairs, _id))
+        setAffairs(deleteAffair(affairs, _id));
     }
 
     return (
-        <div id={'hw2'}>
+        <div id={'hw02'}>
             <div className={s2.hwTitle}>Homework #2</div>
             <div className={s2.hw}>
                 <Affairs
